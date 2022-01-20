@@ -15,7 +15,7 @@ class CurrenciesController < ApplicationController
 
 	def convert
 		result = Currency.convert(params[:from_currency],params[:to_currency],params[:value])
-		render json: { status: 'SUCCESS', message: 'OK', from_currency: params[:from_currency],to_currency: params[:to_currency] ,new_value: result }
+		render json: { status: 'SUCCESS', message: 'Converted Currency', from_currency: params[:from_currency],to_currency: params[:to_currency] ,new_value: result }
 	end
 end
 
