@@ -1,0 +1,15 @@
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/usr/bin/ruby2.5 -r ./siteconf20220120-28575-1r8ci48.rb extconf.rb
+creating Makefile
+
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.so ./.gem.20220120-28575-10gpov6

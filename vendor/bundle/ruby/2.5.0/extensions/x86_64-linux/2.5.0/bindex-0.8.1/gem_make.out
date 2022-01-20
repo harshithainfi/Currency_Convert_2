@@ -1,0 +1,15 @@
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/bin/ruby2.5 -r ./siteconf20220120-28575-13645y8.rb extconf.rb
+creating Makefile
+
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/harshita/currency_service_2/vendor/bundle/ruby/2.5.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220120-28575-fni78d/skiptrace/internal
