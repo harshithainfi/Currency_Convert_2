@@ -33,4 +33,5 @@ class Currency < ApplicationRecord
       end
     end
   end
+
 end
